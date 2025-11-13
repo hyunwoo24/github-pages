@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내 GitHub 블로그</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        main {
+            padding: 40px 30px;
+        }
+
+        article {
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #eee;
+        }
+
+        article:last-child {
+            border-bottom: none;
+        }
+
+        article h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+        }
+
+        article .meta {
+            color: #999;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+
+        article p {
+            color: #666;
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+
+        .welcome {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .welcome h2 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background: #f8f9fa;
+            padding: 20px 30px;
+            text-align: center;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            main {
+                padding: 30px 20px;
+            }
+
+            article h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 내 GitHub 블로그</h1>
+            <p>GitHub Pages로 호스팅하는 개인 블로그입니다</p>
+        </header>
+
+        <main>
+            <div class="welcome">
+                <h2>환영합니다!</h2>
+                <p>GitHub Pages를 사용해서 만든 블로그입니다. 무료로 호스팅되며, 언제든지 업데이트할 수 있습니다.</p>
+            </div>
+
+            <article>
+                <h2>GitHub Pages로 블로그 시작하기</h2>
+                <div class="meta">2025년 11월 13일</div>
+                <p>GitHub Pages는 깃허브에서 제공하는 무료 호스팅 서비스입니다. 정적 웹사이트, 블로그, 포트폴리오 등을 손쉽게 배포할 수 있죠.</p>
+                <p>별도의 서버나 복잡한 설정 없이도 몇 분 만에 웹사이트를 만들 수 있습니다. 게다가 깃허브의 빠르고 안정적인 글로벌 CDN의 혜택을 받을 수 있어요!</p>
+            </article>
+
+            <article>
+                <h2>왜 GitHub Pages인가?</h2>
+                <div class="meta">2025년 11월 13일</div>
+                <p><strong>무료 호스팅:</strong> 깃허브 계정만 있으면 누구나 무료로 사용할 수 있습니다.</p>
+                <p><strong>간편한 배포:</strong> git push만 하면 자동으로 배포됩니다.</p>
+                <p><strong>커스텀 도메인:</strong> 별도로 구매한 도메인도 연결할 수 있습니다.</p>
+                <p><strong>HTTPS 지원:</strong> 무료 SSL 인증서가 자동으로 제공됩니다.</p>
+            </article>
+
+            <article>
+                <h2>시작해보세요!</h2>
+                <div class="meta">2025년 11월 13일</div>
+                <p>이 페이지의 HTML 파일을 수정해서 여러분만의 블로그를 만들어보세요. index.html 파일을 편집하고 git push하면 변경사항이 바로 반영됩니다.</p>
+                <p>더 많은 정보는 <a href="https://pages.github.com/" target="_blank">GitHub Pages 공식 사이트</a>에서 확인하실 수 있습니다.</p>
+            </article>
+        </main>
+
+        <footer>
+            <p>© 2025 GitHub Pages 블로그 | Powered by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a></p>
+        </footer>
+    </div>
+</body>
+</html>
